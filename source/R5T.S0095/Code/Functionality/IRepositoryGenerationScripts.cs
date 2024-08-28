@@ -79,7 +79,7 @@ namespace R5T.S0095
                 );
             }
 
-            Instances.VisualStudioOperator.OpenSolutionFile(
+            Instances.VisualStudioOperator.Open_SolutionFile(
                 creationOutput.SolutionFilePath.Value);
         }
 
@@ -119,7 +119,7 @@ namespace R5T.S0095
                     isPrivate,
                     applicationContext.TextOutput);
 
-                Instances.WindowsExplorerOperator.OpenDirectoryInExplorer(
+                Instances.WindowsExplorerOperator.Open(
                     repositoryCreationResult.LocalGitRepositoryDirectoryPath.Value);
             }
 

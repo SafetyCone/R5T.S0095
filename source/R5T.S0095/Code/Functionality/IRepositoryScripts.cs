@@ -16,7 +16,7 @@ namespace R5T.S0095
             /// Inputs.
             var repositoryName =
                 //Instances.Values.Sample_RepositoryName
-                "R5T.S0098".ToRepositoryName()
+                "R5T.NG0027".ToRepositoryName()
                 ;
             var organizationName =
                 Instances.OrganizationNames.SafetyCone

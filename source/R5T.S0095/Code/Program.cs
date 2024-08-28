@@ -8,10 +8,10 @@ namespace R5T.S0095
     {
         static async Task Main()
         {
-            //await RepositoryScripts.Instance.Delete_Repository();
+            await RepositoryScripts.Instance.Delete_Repository();
 
             //await RepositoryGenerationScripts.Instance.Create_Repository();
-            await RepositoryGenerationScripts.Instance.Create_RazorLibraryWithWebAssemblyClientAndServerSolution();
+            //await RepositoryGenerationScripts.Instance.Create_RazorLibraryWithWebAssemblyClientAndServerSolution();
         }
     }
 }
